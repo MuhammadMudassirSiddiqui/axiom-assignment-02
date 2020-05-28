@@ -12,8 +12,7 @@ jobs:
         uses: actions/setup-node@v2-b
         with: 
           node-version: 12
-      - name: Install search
+      - name: Install Surge
         run: npm install -g surge
       - name: Run surge
         run: surge ./ bootcamp_setup_ 
-${{secrets.d7ff1725dcbecbbd195076f2648f4edf}}
