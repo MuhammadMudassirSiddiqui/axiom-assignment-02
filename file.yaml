@@ -16,3 +16,4 @@ jobs:
         run: npm install -g surge
       - name: Run surge
         run: surge ./ bootcamp_setup_ 
+${{secrets.d7ff1725dcbecbbd195076f2648f4edf}}
